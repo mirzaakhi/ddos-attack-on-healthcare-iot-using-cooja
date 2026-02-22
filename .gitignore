@@ -1,0 +1,17 @@
+# Contiki / Cooja build outputs
+*.sky
+*.cooja
+*.map
+*.obj
+*.o
+
+# Temporary build folders
+build/
+obj_*/
+
+# Log files (if you don't want to track generated logs)
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
