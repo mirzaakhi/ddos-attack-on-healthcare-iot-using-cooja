@@ -65,6 +65,12 @@ The attack is modeled as higher-frequency UDP traffic.
    - Select the built-in `rpl-udp` example
    - Set mote count to 1
 
+⚠️ **Important Setup Note (Before Adding Sensor Motes)**
+Before proceeding to Step 4, you must manually create the following directory inside your Contiki installation:
+**contiki/examples/wban-udp-ddos**
+Inside this folder, place the following two files:
+   - wban-udp-ddos.c
+   - Makefile
 4. Add normal sensor motes:
    - Click **Browse**
    - Select `wban-udp-ddos.c`
