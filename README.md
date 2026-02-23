@@ -114,3 +114,7 @@ Inside this folder or directory, place the following two files:
 After running the simulation, save the output log as:
 
 `iotddoslog.txt`
+The generated log file can then be used for further analysis of normal and DDoS traffic behavior.
+
+**Note:** For a clearer understanding of how the normal and DDoS sensor motes are configured and executed, please watch the demonstration video:
+https://www.youtube.com/watch?v=X4z0IQvoCN8&t=29s
