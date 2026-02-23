@@ -60,10 +60,10 @@ The attack is modeled as higher-frequency UDP traffic.
 ⚠️ **Important Setup Note (Before Adding Normal and DDoS Healthcare IoT Sensors Motes)**
 Before running the simulation in Cooja, create the following directory inside your Contiki installation: **contiki/examples/wban-udp-ddos**
 So, the command to create the directory:
-  ```bash
-  cd contiki/examples
-  mkdir wban-udp-ddos
-  ```
+    ```bash
+    cd contiki/examples
+    mkdir wban-udp-ddos
+   ```
 Inside this folder or directory, place the following two files:
    - wban-udp-ddos.c
    - Makefile
