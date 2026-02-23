@@ -78,8 +78,12 @@ Inside this folder or directory, place the following two files:
    - Click Motes
    - Add skymotes
    - Choose **Compile from source**
-   - Select the built-in `rpl-udp` example
-   - Set mote count to 1
+   - Browse to the following directory inside Contiki:
+      `contiki/examples/rpl-udp`
+   - Select `udp-server.c` and open it
+   - Click on Compile and then click on Create
+   - In the Create Motes window, set Number of new motes to 1
+   - Click on Add motes
 
 4. Add normal Healthcare IoT sensor motes:
    - Click Motes
