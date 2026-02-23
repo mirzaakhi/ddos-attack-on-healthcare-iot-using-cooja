@@ -71,17 +71,21 @@ Before proceeding to Step 4, you must manually create the following directory in
 Inside this folder, place the following two files:
    - wban-udp-ddos.c
    - Makefile
-4. Add normal sensor motes:
+4. Add normal Healthcare IoT sensor motes:
+   - Click Motes
+   - Add skymotes
    - Click **Browse**
    - Select `wban-udp-ddos.c`
    - Set mote count to 15
 
 5. Add DDoS attack motes:
+   - Click Motes
+   - Add skymotes
    - Click **Browse**
    - Select `wban-udp-ddos.c`
    - Set mote count to 4
 
-6. Start the simulation.
+7. Start the simulation.
 
 ---
 
