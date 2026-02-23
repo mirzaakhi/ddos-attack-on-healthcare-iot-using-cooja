@@ -57,7 +57,7 @@ The attack is modeled as higher-frequency UDP traffic.
     git clone https://github.com/mirzaakhi/ddos-attack-on-healthcare-iot-using-cooja.git
     cd ddos-attack-on-healthcare-iot-using-cooja
     ```
-⚠️ **Important Setup Note (Before Adding Normal and DDoS Healthcare IoT Sensors Motes)**
+⚠️ **Important Setup Note**
 Before running the simulation in Cooja, create the following directory inside your Contiki installation: **contiki/examples/wban-udp-ddos**
 So, the command to create the directory:
 ```bash
