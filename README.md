@@ -51,8 +51,11 @@ The attack is modeled as higher-frequency UDP traffic.
 ---
 
 ## ▶️ How to Run the Simulation
+2. Run Cooja.  
+   (Installation guide:  
+   https://medium.com/@mirzaakhi/how-to-install-contikios-and-run-cooja-simulator-on-windows-11-with-oracle-vm-virtualbox-2691fce267af)
 
-1. Clone the repository and navigate into the project folder:
+2. Clone the repository and navigate into the project folder:
     ```bash
     git clone https://github.com/mirzaakhi/ddos-attack-on-healthcare-iot-using-cooja.git
     cd ddos-attack-on-healthcare-iot-using-cooja
@@ -70,9 +73,6 @@ mkdir wban-udp-ddos
 Inside this folder or directory, place the following two files:
    - wban-udp-ddos.c
    - Makefile
-2. Run Cooja.  
-   (Installation guide:  
-   https://medium.com/@mirzaakhi/how-to-install-contikios-and-run-cooja-simulator-on-windows-11-with-oracle-vm-virtualbox-2691fce267af)
 
 3. Add the server mote:
    - Click Motes
