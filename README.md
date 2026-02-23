@@ -52,33 +52,42 @@ The attack is modeled as higher-frequency UDP traffic.
 
 ## ▶️ How to Run the Simulation
 
-1. Copy this project folder into the `contiki/examples/` directory.
-
-2. Run Cooja.  
+1. Use this exact command in your terminal:
+  ```bash
+git clone https://github.com/mirzaakhi/ddos-attack-on-healthcare-iot-using-cooja.git
+cd ddos-attack-on-healthcare-iot-using-cooja
+```
+2. After cloning, a folder named ddos-attack-on-healthcare-iot-using-cooja will be created in your current directory. So, run this command:
+   ```bash
+   cd ddos-attack-on-healthcare-iot-using-cooja
+   ```
+⚠️ **Important Setup Note (Before Adding Normal and DDoS Healthcare IoT Sensors Motes)**
+Before running the simulation in Cooja, create the following directory inside your Contiki installation:
+**contiki/examples/wban-udp-ddos** so the command to create the directory:
+   - cd contiki/examples
+   - mkdir wban-udp-ddos
+Inside this folder, place the following two files:
+   - wban-udp-ddos.c
+   - Makefile
+3. Run Cooja.  
    (Installation guide:  
    https://medium.com/@mirzaakhi/how-to-install-contikios-and-run-cooja-simulator-on-windows-11-with-oracle-vm-virtualbox-2691fce267af)
 
-3. Add the server mote:
+4. Add the server mote:
    - Click Motes
    - Add skymotes
    - Choose **Compile from source**
    - Select the built-in `rpl-udp` example
    - Set mote count to 1
 
-⚠️ **Important Setup Note (Before Adding Sensor Motes)**
-Before proceeding to Step 4, you must manually create the following directory inside your Contiki installation:
-**contiki/examples/wban-udp-ddos**
-Inside this folder, place the following two files:
-   - wban-udp-ddos.c
-   - Makefile
-4. Add normal Healthcare IoT sensor motes:
+5. Add normal Healthcare IoT sensor motes:
    - Click Motes
    - Add skymotes
    - Click **Browse**
    - Select `wban-udp-ddos.c`
    - Set mote count to 15
 
-5. Add DDoS attack motes:
+6. Add DDoS attack motes:
    - Click Motes
    - Add skymotes
    - Click **Browse**
