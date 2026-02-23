@@ -52,18 +52,14 @@ The attack is modeled as higher-frequency UDP traffic.
 
 ## ▶️ How to Run the Simulation
 
-1. Use this exact command in your terminal:
+1. Clone the repository and navigate into the project folder:
     ```bash
-  git clone https://github.com/mirzaakhi/ddos-attack-on-healthcare-iot-using-cooja.git
-  cd ddos-attack-on-healthcare-iot-using-cooja
-  ```
-2. After cloning, a folder named ddos-attack-on-healthcare-iot-using-cooja will be created in your current directory. So, run this command:
-   ```bash
-   cd ddos-attack-on-healthcare-iot-using-cooja
-   ```
+    git clone https://github.com/mirzaakhi/ddos-attack-on-healthcare-iot-using-cooja.git
+    cd ddos-attack-on-healthcare-iot-using-cooja
+    ```
 ⚠️ **Important Setup Note (Before Adding Normal and DDoS Healthcare IoT Sensors Motes)**
-Before running the simulation in Cooja, create the following directory inside your Contiki installation:
-**contiki/examples/wban-udp-ddos** so the command to create the directory:
+Before running the simulation in Cooja, create the following directory inside your Contiki installation: **contiki/examples/wban-udp-ddos**
+So, the command to create the directory:
   ```bash
   cd contiki/examples
   mkdir wban-udp-ddos
@@ -71,32 +67,32 @@ Before running the simulation in Cooja, create the following directory inside yo
 Inside this folder or directory, place the following two files:
    - wban-udp-ddos.c
    - Makefile
-3. Run Cooja.  
+2. Run Cooja.  
    (Installation guide:  
    https://medium.com/@mirzaakhi/how-to-install-contikios-and-run-cooja-simulator-on-windows-11-with-oracle-vm-virtualbox-2691fce267af)
 
-4. Add the server mote:
+3. Add the server mote:
    - Click Motes
    - Add skymotes
    - Choose **Compile from source**
    - Select the built-in `rpl-udp` example
    - Set mote count to 1
 
-5. Add normal Healthcare IoT sensor motes:
+4. Add normal Healthcare IoT sensor motes:
    - Click Motes
    - Add skymotes
    - Click **Browse**
    - Select `wban-udp-ddos.c`
    - Set mote count to 15
 
-6. Add DDoS attack motes:
+5. Add DDoS attack motes:
    - Click Motes
    - Add skymotes
    - Click **Browse**
    - Select `wban-udp-ddos.c`
    - Set mote count to 4
 
-7. Start the simulation.
+6. Start the simulation.
 
 ---
 
