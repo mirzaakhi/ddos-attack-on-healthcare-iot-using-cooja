@@ -81,31 +81,33 @@ Inside this folder or directory, place the following two files:
 - Click **Create**
 
 4. Add the server mote:
+   **Note:** The file udp-server.c is located inside the Contiki directory at
+    `contiki/examples/ipv6/rpl-udp`
    - Click Motes
    - Add skymotes
    - Choose **Compile from source**
    - Browse to the following directory inside Contiki:
-      `contiki/examples/IPV6/rpl-udp`
+      `contiki/examples/ipv6/rpl-udp`
    - Select `udp-server.c` and open it
    - Click on Compile and then click on Create
    - In the Create Motes window, set Number of new motes to 1
    - Click on Add motes
 
-5. Add normal Healthcare IoT sensor motes:
+6. Add normal Healthcare IoT sensor motes:
    - Click Motes
    - Add skymotes
    - Click **Browse**
    - Select `wban-udp-ddos.c`
    - Set mote count to 15
 
-6. Add DDoS attack motes:
+7. Add DDoS attack motes:
    - Click Motes
    - Add skymotes
    - Click **Browse**
    - Select `wban-udp-ddos.c`
    - Set mote count to 4
 
-7. Start the simulation.
+8. Start the simulation.
 
 ---
 
