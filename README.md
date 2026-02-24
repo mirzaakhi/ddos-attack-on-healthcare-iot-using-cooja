@@ -85,7 +85,7 @@ Inside this folder or directory, place the following two files:
    - Add skymotes
    - Choose **Compile from source**
    - Browse to the following directory inside Contiki:
-      `contiki/examples/rpl-udp`
+      `contiki/examples/IPV6/rpl-udp`
    - Select `udp-server.c` and open it
    - Click on Compile and then click on Create
    - In the Create Motes window, set Number of new motes to 1
