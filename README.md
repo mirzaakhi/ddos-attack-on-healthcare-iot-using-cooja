@@ -1,4 +1,4 @@
-# DDoS Attack on Healthcare-IoT Devices using Cooja Simulator
+# DDoS Attack on Healthcare-IoT (H-IoT) Devices using Cooja Simulator
 
 This project simulates a Distributed Denial-of-Service (DDoS) attack in a Healthcare Wireless Body Area Network (WBAN) using the Cooja simulator on Contiki OS.
 
@@ -23,19 +23,19 @@ ddos-attack-healthcare-iot-cooja/
 
 - Total nodes: 20  
 - Node 1 → Server (built-in udp-server.c from contiki/examples/ipv6/rpl-udp)
-- Nodes 2–16 → Normal sensor nodes  
+- Nodes 2–16 → Normal H-IoT sensor nodes  
 - Nodes 17–20 → DDoS attack nodes  
 
 ---
 
 ## ⏱ Traffic Logic
 
-- Normal nodes send data every **60 seconds**
+- Normal H-IoT nodes send data every **60 seconds**
 - DDoS nodes send data every **30 seconds**
 
 This means:
 
-- Normal node → 1 packet per minute  
+- Normal H-IoT node → 1 packet per minute  
 - DDoS node → 2 packets per minute  
 
 The attack is modeled as higher-frequency UDP traffic.
