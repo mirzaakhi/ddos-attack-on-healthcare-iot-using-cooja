@@ -81,6 +81,7 @@ Inside this folder or directory, place the following two files:
 - Click **Create**
 
 4. Add the server mote:
+
    **Note:** The file udp-server.c is located inside the Contiki directory at
     `contiki/examples/ipv6/rpl-udp`
    - Click Motes
