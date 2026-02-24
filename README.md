@@ -83,7 +83,7 @@ Inside this folder or directory, place the following two files:
 4. Add the server mote:
 
    **Note:** The file udp-server.c is located inside the Contiki directory at
-    `contiki/examples/ipv6/rpl-udp`
+    `contiki/examples/ipv6/rpl-udp`. It is not included in this repository.
    - Click Motes
    - Add skymotes
    - Choose **Compile from source**
