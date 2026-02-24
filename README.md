@@ -22,7 +22,7 @@ ddos-attack-healthcare-iot-cooja/
 ## 🧠 Network Configuration
 
 - Total nodes: 20  
-- Node 1 → Server (built-in `rpl-udp` example in Cooja)  
+- Node 1 → Server (built-in udp-server.c from contiki/examples/ipv6/rpl-udp)
 - Nodes 2–16 → Normal sensor nodes  
 - Nodes 17–20 → DDoS attack nodes  
 
