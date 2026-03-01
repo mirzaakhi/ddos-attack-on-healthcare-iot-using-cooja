@@ -121,3 +121,25 @@ The generated log file can then be used for further analysis of normal and DDoS 
 
 **Note:** For a clearer understanding of how the normal and DDoS sensor motes are configured and executed, please watch the demonstration video:
 https://www.youtube.com/watch?v=X4z0IQvoCN8&t=29s
+
+📄 **Related Publication**
+
+This repository implements the DDoS attack model presented in the following publication:
+
+**TCN-Based DDoS Detection and Mitigation in 5G Healthcare-IoT: A Frequency Monitoring and Dynamic Threshold Approach
+IEEE Access, 2025.** 
+
+**Paper link:**
+https://ieeexplore.ieee.org/abstract/document/10845749
+
+📌 **Citation**
+
+If you use this repository in your research, please cite:
+
+@article{akhi2025tcn,
+  title={TCN-Based DDoS detection and mitigation in 5G Healthcare-IoT: A frequency monitoring and dynamic threshold approach},
+  author={Akhi, Mirza and Eising, Ciar{\'a}n and Dhirani, Lubna Luxmi},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
+}
