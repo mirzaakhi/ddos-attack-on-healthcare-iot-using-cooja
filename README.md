@@ -136,6 +136,7 @@ https://ieeexplore.ieee.org/abstract/document/10845749
 
 If you use this repository in your research, please cite:
 
+```
 @article{akhi2025tcn,
   title={TCN-Based DDoS detection and mitigation in 5G Healthcare-IoT: A frequency monitoring and dynamic threshold approach},
   author={Akhi, Mirza and Eising, Ciar{\'a}n and Dhirani, Lubna Luxmi},
@@ -143,3 +144,4 @@ If you use this repository in your research, please cite:
   year={2025},
   publisher={IEEE}
 }
+```
